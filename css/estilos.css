@@ -27,21 +27,31 @@ body{
 
 .contenedor_1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
-
-
 .contenedor_presentacion{
     color: #bbb;
-    width: 30%;
+    width: 50%;
     padding: 10px;
     border-radius: 10px;
     text-align: justify;
     letter-spacing: 1px;
     line-height: 1.5;
+}
+
+h1{
+    text-align: center;
+}
+
+.contenedor_presentacion h3{
+    font-size: 28px;
+}
+
+.contenedor_presentacion p{
+    font-size: 14px;
 }
 
 .contenedor_logo{
@@ -52,7 +62,6 @@ body{
     max-width: 220px;
     border-radius: 50%;
 }
-
 
 .contenedor_perfil{
     display: flex;
@@ -97,6 +106,7 @@ body{
     box-shadow: 0 0 10px #E2F26B;
     border-radius: 10px;
 }
+
 .celdas h2{
     background-color: #000;
     text-shadow: 0px 0px 2px #fff;
@@ -150,17 +160,24 @@ body{
 
     .contenedor_perfil{
         flex-wrap: wrap;
-        
     }
 
     .contenedor_presentacion{
         display: flex;
         flex-direction: column;
         width: 70%;
-        
     }
 
     .contenedor_presentacion h1{
         text-align: center;
     }
+}
+
+.caja_footer{
+    background-color: #000;
+    color: #666;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding: 10px;
 }
