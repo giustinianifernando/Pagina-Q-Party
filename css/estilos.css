@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+    color:  #F291D0;
+    
+}
+
+.informacion{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+}
+
+.informacion p{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.contenedor_1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.contenedor_presentacion{
+    color: #bbb;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.contenedor_logo{
+    padding: 15px;
+}
+
+#logo{
+    max-width: 220px;
+    border-radius: 50%;
+}
+
+
+.contenedor_perfil{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foto_perfil{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: -1;
+}
+
+.foto_perfil img{
+    width: 1500px;
+    opacity: .4;
+    border-radius: 10px;
+    filter: blur(2px);
+}
+
+.servicios_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-bottom: 20px;
+}
+
+.celdas{
+    max-width: 500px;
+    max-height: 300px;
+    overflow: hidden;
+    z-index: 10;
+    border: 1px solid #F20505;
+    box-shadow: 0 0 10px #E2F26B;
+    border-radius: 10px;
+}
+.celdas h2{
+    background-color: #000;
+    text-shadow: 0px 0px 2px #fff;
+    font-size: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.celdas img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.datos_perfil{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    height: 300px;
+    text-align: center;
+}
+
+.caja_contacto{
+    letter-spacing: 2px;
+    line-height: 3;
+}
+
+.iconos_redes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.iconos_redes img{
+    height: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 615px){
+    .datos_perfil{
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1204px){
+    .contenedor_1{
+        flex-direction: column;
+        
+    }
+
+    .contenedor_perfil{
+        flex-wrap: wrap;
+        
+    }
+
+    .contenedor_presentacion{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        
+    }
+
+    .contenedor_presentacion h1{
+        text-align: center;
+    }
+}
