@@ -32,7 +32,7 @@ body{
 
 .informacion p{
     padding: 10px;
-    font-size: 17px;
+    font-size: 2.5em;
     font-weight: bold;
     font-style: oblique;
     letter-spacing: 2px;
@@ -56,8 +56,6 @@ h1{
 }
 
 .contenedor_1{
-    display: flex;
-    justify-content: space-evenly;
     margin: auto;
     width: 80%;
     align-items: center;
@@ -67,28 +65,31 @@ h1{
 
 
 .contenedor_presentacion{
-    width: 30%;
-    margin:20px auto;
+    width: 40%;
+    margin: 60px auto;
     max-height: 250px;
     padding: 10px;
-    border-radius: 20px 100px;
     text-align: center;
     letter-spacing: 1px;
     line-height: 1.5;    
-    background-color: #E2F26B;
-    color: #000;
+    background-color: #111;
+    color: #fff;
     padding: 10px 15px;
-    border: 5px dotted red;
+    border: 1px solid red;
     box-shadow: #E2F26B 0px 0px 8px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 2em;
 }
 .contenedor_presentacion p{
     font-size: medium;
     font-weight: bold;
-    padding: 0 25px 0 50px ;
+    padding: 0 25px 0 50px;
 }
 
 #logo{
-    width: 25%;
+    width: 20%;
     border-radius: 50%;
     animation: buffer 0.5s infinite;
     position: relative;
@@ -155,6 +156,7 @@ h1{
     z-index: 1;
     border: 1px solid #F20505;
     box-shadow: 0 0 10px #E2F26B;
+    border-radius: 10px;
 }
 .efecto_tarjeta{
     border-radius: 10px;
@@ -221,15 +223,19 @@ h1{
 .datos_perfil{
     display: flex;
     justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
     align-items: center;
     background-color: #000;
     height: 400px;
     text-align: center;
+    font-size: 1.5em;
 }
 
 .caja_contacto{
     letter-spacing: 2px;
     line-height: 3;
+    
 }
 
 .iconos_redes{
