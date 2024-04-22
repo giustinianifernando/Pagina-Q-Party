@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +8,57 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/youtube.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
+
 <body>
     <div class="foto_perfil elemento_1">
         <img src="img/foto_perfil.jpg" alt="foto_perfil">
     </div>
 
-    <nav>
-        <div class="informacion elemento">
-            <a href="#datos_perfil">
-                <p>Contactos</p>
-            </a>
-            <a href="#contenedor_perfil">
-                <p>Mis Servicios</p> 
-            </a>
-        </div>
+    <header>
+        <nav>
+            <div class="informacion elemento">
+                <i>
+                    <ion-icon name="menu-outline" id="menu-outline"></ion-icon>
+                </i>
+                <a href="#datos_perfil">
+                    <p>Contactos</p>
+                </a>
+                <a href="#contenedor_perfil">
+                    <p>Mis Servicios</p>
+                </a>
+            </div>
+        </nav>
 
         <div class="contenedor_1 elemento">
             <div class="contenedor_logo">
                 <h1>
-                    <img src="img/Logo.jpg" alt="QParty" id="logo">
+                    <img src="img/Logo.jpg" alt="QParty" class="logo">
                 </h1>
             </div>
             <div class="contenedor_presentacion elemento">
-                <h2>Maximiliano Vitterito</h1><br/>
-                <p>
-                    Sonido Profesional, Show de Luces, Maquina de Humo, 
-                    Pantalla Gigante, Karaoke,
-                    Cumpleaños de 15,
-                    Casamientos,
-                    Despedidas,
-                    +150 personas 
-                </p>
+                <h2>Maximiliano Vitterito</h1><br />
+                    <p>
+                        Sonido Profesional, Show de Luces, Maquina de Humo,
+                        Pantalla Gigante, Karaoke,
+                        Cumpleaños de 15,
+                        Casamientos,
+                        Despedidas,
+                        +150 personas
+                    </p>
             </div>
-        </div>  
-    </nav>
+        </div>
+    </header>
+
 
     <div class="contenedor_perfil elemento" id="contenedor_perfil">
         <div class="servicios_1">
             <div class="celdas">
                 <h2>Bolas de Espejo</h2>
                 <div class="efecto_tarjeta">
-                    <img src="img/boladeespejos.jpg" alt="boladeespejos" class="img_celdas delante" >
+                    <img src="img/boladeespejos.jpg" alt="boladeespejos" class="img_celdas delante">
                     <img src="img/BolaEspejo3D.png" alt="bola de espejo 3D" class="detras">
                 </div>
             </div>
@@ -90,53 +100,54 @@
                     <img src="img/karaoke3D.png" alt="karaoke3D" class="detras">
                 </div>
             </div>
-       </div>
-    </div>   
+        </div>
+    </div>
 
-    <div class="datos_perfil elemento" id="datos_perfil">
-        <div class="nuestras_redes">
-            <h2>Siguenos en nuestras Redes</h2>
-            <div class="iconos_redes">
-                <div class="texto_icono">
-                    <a href="https://www.instagram.com/dj_qparty/" target="_blank">
-                        <img src="iconos/instagram.png" alt="instagram">
-                    </a>
-                </div>
-                <div class="texto_icono">
-                    <a href="https://www.facebook.com/maxi.viterito.338" target="_blank">
-                        <img src="iconos/facebook_logo_icon_147291.ico" alt="facebook">
-                    </a>
-                </div>
-                <div class="texto_icono">
-                    <img src="iconos/youtube.png" alt="youtube">
-                </div>
-                <div class="texto_icono">
-                    <a href="https://wa.me/+59898967520" target="_blank">
-                        <img src="iconos/whatsapp.png" alt="whatsapp">
-                    </a>
+    <footer>
+        <div class="datos_perfil elemento" id="datos_perfil">
+            <div class="nuestras_redes">
+                <h2>Siguenos en nuestras Redes</h2>
+                <div class="iconos_redes">
+                    <div class="texto_icono">
+                        <a href="https://www.instagram.com/dj_qparty/" target="_blank">
+                            <img src="iconos/instagram.png" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="texto_icono">
+                        <a href="https://www.facebook.com/maxi.viterito.338" target="_blank">
+                            <img src="iconos/facebook_logo_icon_147291.ico" alt="facebook">
+                        </a>
+                    </div>
+                    <div class="texto_icono">
+                        <img src="iconos/youtube.png" alt="youtube">
+                    </div>
+                    <div class="texto_icono">
+                        <a href="https://wa.me/+59898967520" target="_blank">
+                            <img src="iconos/whatsapp.png" alt="whatsapp">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <div>
-            <img src="img/Logo.jpg" alt="logo" id="logo">
+
+            <div>
+                <img src="img/Logo.jpg" alt="logo" class="logo">
+            </div>
+
+            <div class="caja_contacto">
+                <h2>Contactanos</h2>
+                <p>Tel: +59896129953</p>
+                <p>Email: Qparty.contacto@gmail.com</p>
+            </div>
         </div>
 
-        <div class="caja_contacto">
-            <h2>Contactanos</h2>
-            <p>Tel: +59896129953</p>
-            <p>Email: Qparty.contacto@gmail.com</p>
+
+        <div class="caja_footer">
+            By Fernando Giustiniani -- copyright
         </div>
-    </div>
+    </footer>
 
-<footer>
-    <div class="caja_footer">
-        By Fernando Giustiniani -- Copyright
-    </div>
-</footer>
-
-<script src="JS/script.js"></script>
+    <script src="JS/script.js"></script>
 
 </body>
-</html>
 
+</html>
