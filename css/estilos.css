@@ -83,11 +83,10 @@ h1 {
     line-height: 1.5;
     background-color: #000;
     padding: 10px 15px;
-    border: 1px solid red;
     border-right: none;
     border-top: none;
     border-left: none;
-    box-shadow: #E2F26B 0px 3px 8px;
+    box-shadow: #728D08 0px 3px 8px;
     border-radius: 10px;
 }
 
@@ -97,10 +96,9 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    color: #4C538F;
+    color: #728D08;
     filter: brightness(200%);
     padding: 10px 0 5px 0;
-    text-shadow: 0px 0px 10px rgba(0, 0, 255, 0.5);
 }
 
 .contenedor_presentacion p {
@@ -176,11 +174,10 @@ h2 {
     max-height: 300px;
     overflow: hidden;
     margin: auto;
-    border: 1px solid red;
     border-right: none;
     border-top: none;
     border-left: none;
-    box-shadow: #E2F26B 0px 3px 8px;
+    box-shadow: #728D08 0px 3px 8px;
     border-radius: 10px;
 }
 
